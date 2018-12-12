@@ -1,11 +1,4 @@
 {
-    "presets": [
-        "env",
-        "react"
-    ],
-    "plugins": [
-        "transform-object-rest-spread",
-        "transform-async-to-generator",
-        "transform-decorators-legacy"
-    ]
+  "presets": ["@babel/env", "@babel/react"],
+  "plugins": ["transform-object-rest-spread", "transform-async-to-generator"]
 }
